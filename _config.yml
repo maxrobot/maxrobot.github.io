@@ -20,10 +20,10 @@ title                    : "The Anarchist Book Review"
 title_separator          : "-"
 name                     : "F Grabner"
 description              : "A compilation of reads..."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://maxrobot.github.io"
+baseurl                  : "/tabr"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/cover-ed-robertson.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
