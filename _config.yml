@@ -10,13 +10,13 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "sunrise" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "en-GB"
+title                    : "The Anarchist Book Review"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
@@ -204,6 +204,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -269,3 +270,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
